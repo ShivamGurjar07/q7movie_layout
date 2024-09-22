@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+
+.main1,.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+/* .main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} */
+.main1>div,.main2>div{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 5px;
+}
+img{
+    width: 220px;
+    height:225px;
+
+}
+.btn{
+    background-color: #94D2F6;
+    border: transparent;
+    padding: 5px 10px;
+}
